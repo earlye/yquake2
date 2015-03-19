@@ -67,7 +67,7 @@ typedef unsigned char byte;
 #ifdef _WIN32
  #define MAX_OSPATH 256             /* max length of a filesystem pathname (same as MAX_PATH) */
 #else
- #define MAX_OSPATH 128             /* max length of a filesystem pathname */
+ #define MAX_OSPATH 128             /* max length of a filesystem pathname */ // FIXME: WTF? more like 4096?
 #endif
 
 /* per-level limits */
